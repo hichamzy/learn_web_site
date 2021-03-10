@@ -1,0 +1,168 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+
+}
+.container{
+    height: 252px;
+    width: 80%;
+    margin: auto;
+}
+
+.learn{
+    backdrop-filter: blur(2px);
+    z-index: 1;
+    position: relative;
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 75vh;
+}
+nav.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+}
+
+nav ul {
+    display: flex;
+}
+nav ul a{
+    color:white;
+    padding: 5px;
+    margin: 0 2px;
+}
+input[type="text"] {
+    padding: 7px;
+    margin: 6px;
+    border-radius: 4px;
+    border: none;
+}
+.heure {
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heure img {
+    width: 404px;
+    height: auto;
+    margin-bottom: 2rem;
+}
+.heure h1 {
+    font-size: 34px;
+    margin-bottom: 21px;
+}
+.over{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000000ad;
+    z-index: -1;
+}
+section.section {
+    padding: 37px 0;
+}
+h2.titre {
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+.Tab{
+    width: 80%;
+    margin: auto;
+}
+.javascript{
+    height: 366px;
+    border: black solid;
+    width: 265px;
+    margin-right: 36px;
+    width: 334px;
+}
+.java{
+    height: 187px;
+
+}
+.tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #8080804a;
+    height: 489px;
+}
+h3.html {
+    padding-left: 5px;
+    padding: 14px;
+}
+p.lorem {
+    padding-left: 20px;
+}
+button {
+    color: white;
+    padding: 13px 111px;
+    margin: 15px;
+    background-color: black;
+    border: none;
+    border-radius: 4px;
+    
+}
+#last {
+        background-color: white;
+        padding: 12px 199px;
+        border-style: groove;
+        border-color: black;
+        border-radius: 0px;
+    }
+    #alfa {
+        background-color: black;
+        padding: 12px 32px;
+        color: white;
+    }
+    .sus {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #subscrib {
+        padding-left: 65px;
+        margin-bottom: 24px;
+        display: flex;
+        text-align: center;
+    }
+    ul.fin {
+        margin-top: 20px;
+        height: 182px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+        padding: 46px;
+    }
+    li.fi {
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+    #f{
+        color: white;
+        text-align: center;
+        padding-bottom: 27px;
+    }
+    .after{
+        background-color: black;
+    }
